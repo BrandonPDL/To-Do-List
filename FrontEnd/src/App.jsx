@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path='/home' element={<PrivateRoute component={Home}/>}/>
           <Route path='/login' element={<Login/>}/>
-          <Route path='*' element={<PrivateRoute component={PageInfo} />} />
+          <Route path='*' element={<PrivateRoute component={Home} />} />
         </Routes>
         </PersistGate>
       </Provider>

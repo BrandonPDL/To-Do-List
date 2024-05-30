@@ -67,3 +67,7 @@ npm install
 npm run dev
 ```
 
+# Credenciales
+-"email": "john@example.com"
+-"password": "password"
+
